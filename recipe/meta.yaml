@@ -10,7 +10,7 @@ source:
   sha256: 3557e66f83812c86204d9ce9a8df14c48a59f1471c8573bbf83978e37e3208d3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
@@ -45,3 +45,5 @@ about:
 extra:
   recipe-maintainers:
     - winni2k
+    - jeromekelleher
+    - petrelharp
