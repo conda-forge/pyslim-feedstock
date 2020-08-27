@@ -5,7 +5,7 @@ Home: https://github.com/tskit-dev/pyslim
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Tools for dealing with tree sequences coming to and from SLiM.
 
@@ -118,5 +118,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@jeromekelleher](https://github.com/jeromekelleher/)
+* [@petrelharp](https://github.com/petrelharp/)
 * [@winni2k](https://github.com/winni2k/)
 
