@@ -1,18 +1,18 @@
 {% set name = "pyslim" %}
-{% set version = "0.401" %}
+{% set version = "0.403" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 3557e66f83812c86204d9ce9a8df14c48a59f1471c8573bbf83978e37e3208d3
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d72db22346242e0a6c84503d42a6bca14273d209aeb9296ad99362d31425cc0d
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -31,11 +31,11 @@ test:
     - pyslim
 
 about:
-  home: "https://github.com/tskit-dev/pyslim"
+  home: https://github.com/tskit-dev/pyslim
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: Tools for dealing with tree sequences coming to and from SLiM. 
+  summary: Tools for dealing with tree sequences coming to and from SLiM.
   description: |
     pyslim is a python module to allow reading and writing of SLiM-produced tree
     sequences as a thin interface to tskit. 
