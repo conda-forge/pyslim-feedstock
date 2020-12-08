@@ -5,9 +5,13 @@ Home: https://github.com/tskit-dev/pyslim
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyslim-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tools for dealing with tree sequences coming to and from SLiM.
+
+Development: https://pyslim.readthedocs.io/en/latest/development.html
+
+Documentation: https://pyslim.readthedocs.io/en/latest/
 
 pyslim is a python module to allow reading and writing of SLiM-produced tree
 sequences as a thin interface to tskit.
