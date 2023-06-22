@@ -1,11 +1,11 @@
-About pyslim
-============
+About pyslim-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyslim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tskit-dev/pyslim
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyslim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for dealing with tree sequences coming to and from SLiM.
 
