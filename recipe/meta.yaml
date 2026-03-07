@@ -1,5 +1,5 @@
 {% set name = "pyslim" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f4112d1aec1e324c850c5d0803122223c4525f64d980edeb93a5aec99abc905
+  sha256: 5cfc04427cdd3df94fb149ba511e674c2212c581f6f31e9422171fa98ba9a399
 
 build:
   number: 0
