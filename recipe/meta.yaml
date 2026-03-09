@@ -1,5 +1,6 @@
 {% set name = "pyslim" %}
 {% set version = "1.1.1" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - attrs
     - kastore
-    - msprime >=0.7.0
+    - msprime 
     - numpy
     - tskit
 
@@ -42,8 +43,8 @@ about:
   description: |
     pyslim is a python module to allow reading and writing of SLiM-produced tree
     sequences as a thin interface to tskit. 
-  doc_url: https://pyslim.readthedocs.io/en/latest/
-  dev_url: https://pyslim.readthedocs.io/en/latest/development.html
+  doc_url: https://tskit.dev/pyslim/docs/
+  dev_url: https://tskit.dev/pyslim/docs/stable/development.html
 
 extra:
   recipe-maintainers:
